@@ -222,3 +222,107 @@
     bindings = <&mkp MB1 &mkp MB1>;
     display-name = "Double Click";
   };
+
+  KBOne: KBOne {
+	compatible = "zmk,behavior-mod-morph";
+	label = "KBOne";
+	#binding-cells = <0>;
+	bindings = <&kp N1>, <&kp PLUS>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  KBTwo: KBTwo {
+	compatible = "zmk,behavior-mod-morph";
+	label = "KBTwo";
+	#binding-cells = <0>;
+	bindings = <&kp N2>, <&kp LBKT>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  KBThree: KBThree {
+	compatible = "zmk,behavior-mod-morph";
+	label = "KBThree";
+	#binding-cells = <0>;
+	bindings = <&kp N3>, <&kp LBRC>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  KBFour: KBFour {
+	compatible = "zmk,behavior-mod-morph";
+	label = "KBFour";
+	#binding-cells = <0>;
+	bindings = <&kp N4>, <&kp LPAR>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  KBFive: KBFive {
+	compatible = "zmk,behavior-mod-morph";
+	label = "KBFive";
+	#binding-cells = <0>;
+	bindings = <&kp N5>, <&kp AMPS>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  KBSix: KBSix {
+	compatible = "zmk,behavior-mod-morph";
+	label = "KBSix";
+	#binding-cells = <0>;
+	bindings = <&kp N6>, <&kp EQUAL>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  KBSeven: KBSeven {
+	compatible = "zmk,behavior-mod-morph";
+	label = "KBSeven";
+	#binding-cells = <0>;
+	bindings = <&kp N7>, <&kp RPAR>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  KBEight: KBEight {
+	compatible = "zmk,behavior-mod-morph";
+	label = "KBEight";
+	#binding-cells = <0>;
+	bindings = <&kp N8>, <&kp RBRC>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  KBNine: KBNine {
+	compatible = "zmk,behavior-mod-morph";
+	label = "KBNine";
+	#binding-cells = <0>;
+	bindings = <&kp N9>, <&kp RBKT>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  KBZero: KBZero {
+	compatible = "zmk,behavior-mod-morph";
+	label = "KBZero";
+	#binding-cells = <0>;
+	bindings = <&kp N0>, <&kp STAR>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  ExcAndCarrot: ExcAndCarrot {
+	compatible = "zmk,behavior-mod-morph";
+	label = "ExcAndCarrot";
+	#binding-cells = <0>;
+	bindings = <&kp EXCL>, <&kp CARET>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  PercentAndAt: PercentAndAt {
+	compatible = "zmk,behavior-mod-morph";
+	label = "PercentAndAt";
+	#binding-cells = <0>;
+	bindings = <&kp PRCNT>, <&kp AT>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
+
+  HashAndDollar: HashAndDollar{
+	compatible = "zmk,behavior-mod-morph";
+	label = "HashAndDollar";
+	#binding-cells = <0>;
+	bindings = <&kp HASH>, <&kp DLLR>;
+	mods = <(MOD_LSFT|MOD_RSFT)>;
+  };
